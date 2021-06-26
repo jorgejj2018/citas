@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: inherit;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #b8dafa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cita-wrapper {
+    width: 450px;
+    height: 370px;
+    margin: 0 10px;
+}
+.cita-wrapper .cita-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cita-wrapper .cita-heading h2 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+    font-size:35px;
+    color: #2e2a2b;
+    text-shadow:1px 4px  #22313F;
+}
+.cita-wrapper .cita-body {
+    width: 100%;
+    height:auto;
+    padding: 50px 35px;
+    background-color:whitesmoke;
+    border-radius: 8px;
+}
+.cita-wrapper .cita-body .icon-cita {
+    text-align: center;
+    font-size: 18px;
+    color: #2234;
+    height: 42px;
+    overflow: auto;
+}
+.cita-wrapper .cita-body .icon-cita .icon {
+    margin-right: 5px;
+}
+.cita-wrapper .cita-body .author {
+    text-align: right;
+    margin-top: 15px;
+}
+.cita-wrapper .cita-body .cita-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    border-top: 1px solid #4a6986;
+    padding: 7px 0;
+}
+.cita-wrapper .cita-body .cita-buttons .social a {
+    font-size: 40px;
+    color: #455261;
+    transition: .3s ease;
+}
+.cita-wrapper .cita-body .cita-buttons .social a:hover {
+    color: #484f52;
+}
+.cita-wrapper .cita-body .cita-buttons .btn button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #455261;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cita-wrapper .cita-body .cita-buttons button:active {
+    background-color: #2d9b92;
+}
+
+/*  Scroll  */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fcfcfc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #455261;
+    border-radius: 5px;
+}
